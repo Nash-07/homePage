@@ -1,0 +1,70 @@
+/* Basic styling for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menu a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.sign-up {
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    background-color: #f0f0f0;
+}
+
+.login {
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #cc0000;
+}
+
+.call-back {
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.call-back:hover {
+    background-color: #333;
+}

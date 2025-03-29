@@ -1,0 +1,215 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-color: #333;
+    color: white;
+    overflow: hidden; /* Prevent horizontal scrolling within the header */
+}
+
+.header-image {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    object-fit: cover; /* Cover the entire area */
+    opacity: 0.8;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 20px; /* Position text at the bottom */
+    width: 100%;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px; /* Reduced font size */
+    font-weight: bold;
+    margin: 0;
+}
+
+.header p {
+    margin: 4px 0;
+    font-size: 18px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    margin: 40px 20px;
+    gap: 20px; /* Add spacing between cards */
+}
+
+.card {
+    width: 48%; /* Increase card width */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden; /* Ensure content stays within the card */
+    padding: 20px; /* Add padding inside the card */
+}
+
+.card-image {
+    width: 100%;
+    height: 300px; /* Increase height for larger images */
+    object-fit: contain; /* Ensure the entire image is visible without cropping */
+    border-radius: 8px 8px 0 0; /* Rounded corners for the top of the card */
+}
+
+.card h2 {
+    font-size: 28px; /* Increase font size for the title */
+    margin: 20px 0;
+    color: #333;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card ul li {
+    margin: 10px 0;
+    font-size: 18px; /* Increase font size for list items */
+    color: #555;
+}
+
+/* Button styling */
+.card button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; /* Blue background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.featured-section {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.featured-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.featured-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.featured-cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.featured-card {
+    width: 22%;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+.featured-card-image {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 2px 2px 0 0;
+}
+
+.featured-card-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.view-all-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-all-button:hover {
+    background-color: #0056b3;
+}
+
+
+.who-we-are-section {
+    background-color: #ffc107; /* Yellow background */
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.who-we-are-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.who-we-are-description {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.view-all-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-all-button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 20px 0; /* Add vertical padding */
+    margin-top: 40px; /* Add spacing above the footer */
+    font-size: 14px; /* Smaller font size */
+}
